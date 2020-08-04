@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+  <title>TOD Toolkit - Meetings</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <link href="/lib/hf/css/preventFullHeaderJump.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/dpwBase-1.0.css" rel="stylesheet" type="text/css">
+  <script src="/lib/tpl/js/ie8support.js"></script>
+  <script src="/lib/tpl/js/jquery-1.11.0.min.js"></script>
+  <script src="/lib/tpl/js/bootstrap.min.js"></script>
+  <script data-main="/lib/hf/js/nocache/App" src="/lib/hf/js/require.js"></script>
+  
+  <!-- YOUR CSS AND SCRIPT INCLUDES (BELOW)-->
+  <link href="/lib/tpl/css/templateBase.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header></header>
+<main class="background">
+  <div class="container">
+    <h1>Transit-Oriented District Toolkit</h1>
+    <main class="page-wrapper">
+      <header class="sub-menu hidden-xs">
+        <!--#include file="nav.html" -->
+      </header>
+      <div class="page-content">
+        <img src="img/CommunityMeeting.png" class="img-responsive" alt="Contact Us">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>Meetings</h2>
+            <p>
+				Additional community meetings will be held in early fall 2020 to discuss the refined Guidelines.
+            </p>
+			  <br>
+			<!--<h3>
+				Upcoming Meetings
+			</h3>
+			  
+		    <p>
+				Saturday, April 25, 2020 (11am - 7pm) and Sunday, April 26th, 2020 (11am - 5pm)<br>
+				Grand Park&#39;s Our Voices 2020<br>
+				<a href="doc/LA_TOD_Final_YouthContestForm_Rev.04_24_2020.pdf">TOD Toolkit Youth Art Contest</a> - <strong>Contest due date extended until Monday, May 11!</strong><br>
+				<a href="https://grandparkla.org">grandparkla.org</a><br>
+			  <br>
+		    </p>-->
+
+			<h3>
+				Past Meetings
+			</h3>
+			  
+		    <p>
+				Saturday, November 2, 2019, 9am - 2pm<br>
+				East Los Angeles Farmers Market<br>
+				4801 E 3rd St.<br>
+				East Los Angeles, CA 90022<br><br>
+				
+				Thursday, November 7, 2019, 6pm - 8pm<br>
+				Centro Maravilla Community Meeting (Workshop)<br>
+				4716 East Cesar E. Chavez Ave.<br>
+				Los Angeles, CA 90022<br><br>
+			  
+				Monday, July 29, 2019, 11am – 1:30pm<br>
+				Anthony Quinn Library<br>
+				3965 East Cesar E Chavez Avenue<br>
+				Los Angeles, CA 90063<br><br>
+			  
+				Wednesday, July 24, 2019, 11:30am – 1:30pm<br>
+				ELA Public Library<br>
+				4837 E 3rd St.<br>
+				Los Angeles, CA 90022<br><br>
+			  
+		    </p>
+			
+              <!-- new line -->
+              <div class="clearfix"></div>
+              
+              <!--#include file="seal.html" --> 
+
+        </div>
+        <!--End Panel Body-->
+      </div>
+      <!--Panel-->
+
+      <!-- end page-content --> 
+    </main>
+    <!-- end page-wrapper --> 
+  </div>
+  <!-- end container --> 
+</main>
+<footer></footer>
+</body>
+</html>

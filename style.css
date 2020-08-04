@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {color: white;}
+.white {color: white;}
+.panel-body p, .events a, .page-content p, .page-content li {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-bottom: 1.2em;
+	text-align: justify;
+}
+.page-content li {
+  line-height: 1.4em;
+  margin-bottom: 0.8em;
+}
+.col1 {
+  float: left;
+  width: 70%;
+}
+.col2 {
+  float: right;
+  width: 260px;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+p a {
+  text-decoration: underline;
+}
+aside {
+  float: right; 
+  padding-left: 10px;
+}
+
+aside > a > img {
+  border: solid 2px #555 !important;
+}
+
+aside .img-insert {
+  width: 230px;
+  font-style: italic; 
+  text-align: center;
+}
+
+aside .img-insert img {
+  width: 230px;
+  font-style: italic; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.seal {
+  text-align: center;
+  margin: auto;
+}
+.seal img {
+  display: inline;
+  padding: 5px;
+  width: 90px;
+}
+
+.danger {
+  color: red !important;
+}
+
+@media (min-width: 992px){
+  .imgCaption {
+		width: 100%;
+  }
+}
+
+
+body:not(.device-touch) .button {
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+/* Buttons - Border
+-----------------------------------------------------------------*/
+
+.button.button-3d {
+	border-radius: 3px;
+	border-bottom: 3px solid rgba(0,0,0,0.15);
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.button.button-3d:hover {
+	background-color: #1ABC9C !important;
+	opacity: 0.9;
+}
+
+.button.button-3d.button-light:hover,
+.button.button-reveal.button-light:hover {
+	text-shadow: none;
+	color: #333;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px 5px 5px 0;
+    padding: 0 22px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1ABC9C;
+    color: #FFF;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.button {
+    background-color: #4592cf; 
+    color: #fff;
+}
+
+#eifd-feedback label {
+	color: #fff;
+}
+
+.page-wrapper {
+	margin-bottom: 80px !important;
+}

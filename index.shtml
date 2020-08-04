@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Department of Public Works, Los Angeles County</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+  <link href="/lib/hf/css/preventFullHeaderJump.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/dpwBase-1.0.css" rel="stylesheet" type="text/css">
+
+  <script src="/lib/tpl/js/ie8support.js"></script>
+  <script src="/lib/tpl/js/jquery-1.11.0.min.js"></script>
+  <script src="/lib/tpl/js/bootstrap.min.js"></script>
+
+  <!-- slick carousel -->
+  <link href="/lib/tpl/css/slick.css" rel="stylesheet" />
+  <link href="/lib/tpl/css/templateBase-2.css" rel="stylesheet" type="text/css">
+
+  <script src="/lib/tpl/js/slick.js"></script>
+  <script data-main="/lib/hf/js/nocache/App" src="/lib/hf/js/require.js"></script>
+	
+  <link href="style.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body>
+  <div class="hidden-structure">
+    <a href="#mainContent">Skip to main content</a>
+  </div>
+	<header></header>
+    <main id="mainContent" class="background">
+        <div class="container">
+            <h1>West Carson Enhanced Infrastructure Financing District (EIFD)</h1>
+            <div class="page-wrapper">
+                <div class="slider largeImageCarousel">
+                    <div>
+                        <img src="img/west-carson-collage-caption.jpg" alt="First slide" class="img-responsive">
+                    </div>
+                    <div>
+                        <img src="img/LA-BioMed-caption.jpg" alt="Second slide" class="img-responsive">
+                    </div>
+                    <div>
+                        <img src="img/Biotech-Park-caption.jpg" alt="Third slide" class="img-responsive">
+                    </div>
+                </div>
+
+              <div class="page-content">
+                <div>
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <div class="col1">
+                        <div>
+							<br>
+                            <p style="background-color: lightyellow; border: 1px solid orange; padding: 20px; font-weight: 600;">Update (8/1/20): Please see Commission Services website for August 11 PFA meeting agenda: LINK TBD</p>
+                          <h2>Project Overview</h2>
+                          <p>
+                              Los Angeles County is in the process of establishing an Enhanced Infrastructure Financing District (EIFD) to fund community amenities.  The purpose of the EIFD is to establish a funding mechanism that can facilitate the construction of infrastructure improvements in unincorporated West Carson.  <span style="text-decoration: underline;">The establishment of the EIFD will not result in any new taxes or fees to the property owners.</span>
+                          </p>
+                          <p>
+                              Once established, the incremental property taxes collected by the County in the EIFD area above the amount collected in the base year (expected to be 2021) would be specifically used to fund the infrastructure projects listed in the Infrastructure Financing Plan (IFP) at an estimated cost of $136 million.  These infrastructure improvements include utility upgrades, street improvements, pedestrian connectivity, housing, and aesthetic improvements including landscaping.
+                          </p>
+                          <p>
+                              Bonds would be issued that would pay for these projects once new development occurs in the EIFD.  The Los Angeles County Board of Supervisors has established a separate body, the West Carson EIFD Public Financing Authority (PFA), to oversee the creation of the EIFD and to eventually consider the Infrastructure Financing Plan.  The PFA will be responsible for the issuance of bonds in the future as well. Any member of the public may attend PFA meetings to provide comment. Meeting locations and times will be posted on this website.  Additionally, you may submit comments using the information below:
+                          </p>
+                          <p>
+                              <strong>Comments should be mailed to:</strong><br>
+                              Board Operations Division, Executive Office<br> 
+                              500 West Temple Street, Room 383<br> 
+                              Los Angeles, CA 90012<br> 
+                              Or <br>
+                              sent via email to: <a href="mailto:Executiveoffice@bos.lacounty.gov">Executiveoffice@bos.lacounty.gov</a>.
+                          </p>
+
+
+                          <div class="row">
+
+                              <div class="col-lg-12 col-padding">
+
+                                  <!--<div class="showMsg" style="line-height: 1.8; color: #fff; font-size: 22px;">
+                                    <p>Thank you for submitting your feedback. </p>
+                                  </div>-->
+                                  <div class="card divcenter noborder" style="background-color: rgba(35,50,66,0.80); background-color: #2b3f6f; border-radius: 10px;" id="contactForm">
+                                      <div class="card-body" style="padding: 40px;">
+                                          <form id="eifd-feedback" name="eifd-feedback-form" class="nobottommargin dark" action="sendEmail.cfm" accept-charset="UTF-8" method="post" target="_self">
+											  <p style="color: #fff;">Required fields *</p>
+
+                                              <label aria-label="customerName" for="customerName">Name*</label>
+                                              <div class="col_full" style="margin-bottom: 1rem;">
+                                                  <input class="form-control" id="customerName" name="customerName" type="text" value="" autocomplete="on" required>					
+                                              </div>
+                                              <label aria-label="customerEmail" for="customerEmail">Email</label>
+                                              <div class="col_full" style="margin-bottom: 1rem;">
+                                                  <input class="form-control" id="customerEmail" name="customerEmail" type="text" value="" autocomplete="on">					
+                                              </div>
+                                              <label aria-label="customerPhone" for="customerPhone">Phone</label>
+                                              <div class="col_full" style="margin-bottom: 1rem;">
+                                                  <input class="form-control" id="customerPhone" name="customerPhone" type="number" value="" autocomplete="on">					
+                                              </div>
+                                              <label aria-label="customerAddress" for="customerAddress">Address*</label>
+                                              <div class="col_full" style="margin-bottom: 1rem;">
+                                                  <input class="form-control " id="customerAddress" name="customerAddress" type="address" value="" autocomplete="on" required>										
+                                              </div>
+                                              <label aria-label="customerComments" for="customerComments">Comments*</label>
+                                              <div class="col_full" style="margin-bottom: 2rem;">
+                                                  <textarea style="resize: vertical" rows="4" class="form-control" id="customerComments" name="customerComments" type="text" value="Comments" autocomplete="on" required></textarea>									
+                                              </div>
+                                              <div class="col_full">
+                                                  <button class="button button-3d nomargin" id="login-form-submit" name="login-form-submit" value="Submit">Submit</button>
+                                              </div>
+
+                                          </form>
+
+                                      </div>
+                                  </div>
+                              </div>					
+
+                          </div>
+
+
+
+                        </div>
+                      </div>
+                      <div class="col2">
+                        <aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em;">
+                            <h3>West Carson EIFD Public Financing Authority Board Members:</h3>
+                            <div>Spervisor Hilda Solis</div>
+                            <div>Supervisor Mark Ridley-Thomas</div>
+                            <div>Supervisor Janice Hahn</div>
+                            <div>David Louie</div>
+                            <div>Dan Rosenfeld</div>
+
+                        </aside>
+						  
+                        <div class="text-center mb-3">
+                            <a href="doc/West-Carson-EIFD-Infrastructure-Financing-Plan-August-2020-DRAFT-with-Exhibits.pdf" target="_blank"><button style="background-color: #2b3f6f; color: white; padding:15px; text-align:center; font-size:16px; margin: 0px 0px; margin-bottom: 10px; border-radius: 10px; cursor:pointer; outline: none; border: none;" type="submit">Draft Infrastructure Financing Plan</button></a>
+							
+                            <a href="doc/West-Carson-EIFD-PFA-Presentation-8-11-2020.pdf" target="_blank"><button style="background-color: #2b3f6f;color: white; padding:15px; width: 260px; text-align:center; font-size:16px; margin: 0px 0px; margin-bottom: 10px; border-radius: 10px; cursor:pointer; outline: none; border: none;" type="submit">Resolution of Intent</button></a>
+							
+                            <a href="doc/West-Carson-BYLAWS-PFA-7.28.2020.pdf" target="_blank"><button style="background-color: #2b3f6f;color: white; padding:15px; width: 260px; text-align:center; font-size:16px; margin: 0px 0px; margin-bottom: 10px; border-radius: 10px; cursor:pointer; outline: none; border: none;" type="submit">Draft Bylaws</button></a>
+							
+                            <a href="http://planning.lacounty.gov/assets/upl/project/west-carson-tod_bos-attachment2.pdf" target="_blank"><button style="background-color: #2b3f6f;color: white; padding:15px; width: 260px; text-align:center; font-size:16px; margin: 0px 0px; margin-bottom: 10px; border-radius: 10px; cursor:pointer; outline: none; border: none;" type="submit">West Carson Transit Oriented District Specific Plan</button></a>
+							
+                            <a href="https://dpw.lacounty.gov/pmd/CampusMasterPlans/" target="_blank"><button style="background-color: #2b3f6f;color: white; padding:15px; width: 260px; text-align:center; font-size:16px; margin: 0px 0px; margin-bottom: 10px; border-radius: 10px; cursor:pointer; outline: none; border: none;" type="submit">Harbor-UCLA Medical Campus Master Plan</button></a>
+							
+                        </div>
+
+                        <!--<aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+                            <div><a href="doc/West-Carson-EIFD-Infrastructure-Financing-Plan-August-2020-DRAFT-with-Exhibits.pdf" target="_blank">Draft Infrastructure Financing Plan</a></div>
+                        </aside>
+                        <aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+                            <div><a href="#" target="_blank">Resolution of Intent</a></div>
+                        </aside>
+                        <aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+                            <div><a href="#" target="_blank">Draft Bylaws</a></div>
+                        </aside>
+                        <aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+                            <div><a href="doc/West-Carson-EIFD-PFA-Presentation-8-11-2020.pdf" target="_blank">West Carson Transit Oriented District Specific Plan</a></div>
+                        </aside>
+                        <aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+                            <div><a href="#" target="_blank">Harbor-UCLA Medical Campus Master Plan</a></div>
+                        </aside>-->
+						  
+						  
+						  
+                      </div>
+
+                      <!-- new line -->
+                      <div class="clearfix"></div>
+
+                      <!--include file="seal.html" --> 
+
+                    </div>
+                    <!--End Panel Body--> 
+                  </div>
+                  <!--Panel--> 
+                </div>
+              </div>
+              <!-- end page-content --> 
+            </div>
+			
+		</div><!-- end container -->
+
+		
+
+		
+    </main>
+
+    <footer></footer>
+    <script>
+        $(document).ready(function ()
+        {
+            $('.largeImageCarousel').slick({
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    infinite: true,
+                                    dots: true
+                                }
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    infinite: true,
+                                    dots: true
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    infinite: true,
+                                    dots: true
+                                }
+                            }
+                ]
+            });
+
+            $('.multiple-items').slick({
+                dots: false,
+				infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+					  {
+						  breakpoint: 900,
+						  settings: {
+							slidesToShow: 3,
+							slidesToScroll: 3,
+							infinite: true,
+						  }
+					  },
+					  {
+						  breakpoint: 650,
+						  settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2,
+							infinite: true,
+						  }
+					  },
+					  {
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							centerMode: true,
+							center: true,
+							infinite: true,
+						  }
+					  }
+                ]
+            });
+
+            $('.multiple-items').on('click', function (e, value) {
+                console.log($(this));
+
+            });
+
+			$('.single-item1').slick({
+			  autoplay: true,
+			  arrows: false,
+			  dots: false,
+			  infinite: true,
+			  pauseOnHover: true,
+			  speed: 200,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  swipe: false,
+			  vertical: true,
+			  responsive: [
+					  {
+						  breakpoint: 991,
+						  settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							autoplaySpeed: 3000,
+							arrows: false,
+							speed: 500,
+							swipe: false
+
+						  }
+					  },
+					  {
+						  breakpoint: 650,
+						  settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							autoplaySpeed: 3000,
+							arrows: false,
+							speed: 500,
+							swipe: false
+
+						  }
+					  },
+					  {
+						  breakpoint: 480,
+						  settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							autoplaySpeed: 3000,
+							arrows: false,
+							speed: 500,
+							swipe: false,
+
+						  }
+					  }
+					]
+			  });
+		  });
+		// display image caption on top of image
+		//$(".slider img").each(function() {
+		//	var imageCaption = $(this).data('caption');
+		//		if (imageCaption != '') {
+		//			var itm=$("<div class='thumb-caption-wrapper'><div class='thumb-caption img-responsive'>"+imageCaption+"</div></div>");
+		//			itm.insertAfter(this);
+		//	}
+		//});
+		// display caption on top of image
+		$(".slider img").each(function() {
+			var imageCaption = $(this).data('caption');
+				if (imageCaption != '') {
+					var itm=$("<div class='imgCaption'>"+imageCaption+"</div>");
+					itm.insertAfter($(this).parent("a"));
+			}
+		});
+    </script>
+
+	<script src="js/functions.js"></script>
+	<script>
+		
+	$(document).ready(function() {
+
+	  var url = location.href;
+
+	  if (url.search('fs') >= 1) {
+		  $('showMsg').show();
+		  $('#contactForm').hide();
+		  
+	  }
+	});	
+	</script>
+	
+	
+</body>
+</html>

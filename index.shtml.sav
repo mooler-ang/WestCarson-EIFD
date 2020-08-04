@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>West Carson EIFD</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<link href="/lib/hf/css/preventFullHeaderJump.css" rel="stylesheet" type="text/css">
+<link href="/lib/hf/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/lib/hf/css/dpwBase-1.0.css" rel="stylesheet" type="text/css">
+<script src="/lib/tpl/js/ie8support.js"></script>
+<script src="/lib/tpl/js/jquery-1.11.0.min.js"></script>
+<script src="/lib/tpl/js/bootstrap.min.js"></script>
+<script data-main="/lib/hf/js/nocache/App" src="/lib/hf/js/require.js"></script>
+
+<!-- YOUR CSS AND SCRIPT INCLUDES (BELOW)-->
+<link href="/lib/tpl/css/templateBase.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header></header>
+<main class="background">
+  <div class="container">
+    <h1>West Carson Enhanced Infrastructure Financing District (EIFD)</h1>
+    <main class="page-wrapper">
+      <!--<header class="sub-menu hidden-xs">--> 
+        <!-- include file="nav.html" --> 
+      <!--</header>-->
+		
+      <div class="page-content">
+        <div><img src="img/LA-BioMed.jpg" class="img-responsive" alt="LA BioMed">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="col1">
+                <div>
+					<p>Update (8/1/20): Please see Commission Services website for meeting agenda: LINK TBD</p>
+                  <h2>Project Overview</h2>
+                  <p>
+                      The County of Los Angeles is in the process of establishing an Enhanced Infrastructure Financing District (EIFD) which incorporates community amenities.  The purpose of the EIFD is to establish a funding mechanism that can facilitate the construction of infrastructure improvements in unincorporated West Carson.  The establishment of the EIFD will not result in any new taxes or fees to the property owners.
+                  </p>
+                  <p>
+                      The property tax increment (the amount above the property taxes collected in the base year (2020/2021) that the County receives would be specifically restricted to pay for the infrastructure projects listed in the Infrastructure Financing Plan.
+                  </p>
+                  <p>
+                      <strong>Comments should be mailed to:</strong><br>
+					  Board Operations Division, Executive Office<br> 
+					  500 West Temple Street, Room 383<br> 
+					  Los Angeles, CA 90012<br> 
+					  Or <br>
+					  sent via email to: <a href="mailto:Executiveoffice@bos.lacounty.gov">Executiveoffice@bos.lacounty.gov</a>.
+                  </p>
+					
+			
+                  <div class="row">
+
+                      <div class="col-lg-12 col-padding">
+
+                          <div class="showMsg" style="line-height: 1.8; color: #fff; font-size: 22px;">
+                            <p>Thank you for submitting your feedback. </p>
+                          </div>
+                          <div class="card divcenter noborder" style=" background-color: rgba(35,50,66,0.80);" id="contactForm">
+                              <div class="card-body" style="padding: 40px;">
+                                  <form id="eifd-feedback" name="eifd-feedback-form" class="nobottommargin dark" action="sendEmail.cfm" accept-charset="UTF-8" method="post" target="_self">
+
+									  <label aria-label="customerName" for="customerName">Name</label>
+                                      <div class="col_full" style="margin-bottom: 1rem;">
+                                          <input class="form-control" id="customerName" name="customerName" type="text" value="Name" autocomplete="on">					
+                                      </div>
+									  <label aria-label="customerAddress" for="customerAddress">Address</label>
+                                      <div class="col_full" style="margin-bottom: 1rem;">
+                                          <input class="form-control " id="customerAddress" name="customerAddress" type="address" value="address" autocomplete="on">										
+                                      </div>
+									  <label aria-label="customerComments" for="customerComments">Comments</label>
+                                      <div class="col_full" style="margin-bottom: 2rem;">
+                                          <textarea style="resize: vertical" rows="4" class="form-control" id="customerComments" name="customerComments" type="text" value="Comments" autocomplete="on" required></textarea>									
+                                      </div>
+                                      <div class="col_full">
+                                          <button class="button button-3d nomargin" id="login-form-submit" name="login-form-submit" value="Submit">Submit</button>
+                                      </div>
+
+                                  </form>
+
+                              </div>
+                          </div>
+                      </div>					
+
+                  </div>
+			
+
+                  
+                </div>
+              </div>
+              <div class="col2">
+                <aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em;">
+					<h3>Public Financing Authority Board Members:</h3>
+					<div>Spervisor Hilda Solis</div>
+					<div>Supervisor Mark Ridley-Thomas</div>
+					<div>Supervisor Janice Hahn</div>
+					<div>David Louie</div>
+					<div>Dan Rosenfeld</div>
+                  
+                </aside>
+				<aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+				  	<div><a href="#" target="_blank">Infrastructure Financing Plan</a></div>
+				</aside>
+				<aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+				  	<div><a href="#" target="_blank">Resolution of Intent</a></div>
+				</aside>
+				<aside style="background-color: #efefef; margin-bottom: 1em; padding: 1em; width: 100%">
+				  	<div><a href="#" target="_blank">Bylaws</a></div>
+				</aside>
+				<aside style="margin-bottom: 1em; padding: 1em; width: 100%">
+				  	<div><a href="#" target="_blank">West Carson Transit Oriented District Specific Plan</a></div>
+					<br>
+				  	<div><a href="#" target="_blank">Harbor-UCLA Medical Campus Master Plan</a></div>
+				</aside>
+              </div>
+              
+              <!-- new line -->
+              <div class="clearfix"></div>
+              
+              <!--include file="seal.html" --> 
+              
+            </div>
+            <!--End Panel Body--> 
+          </div>
+          <!--Panel--> 
+        </div>
+      </div>
+      <!-- end page-content --> 
+    </main>
+    <!-- end page-wrapper --> 
+  </div>
+  <!-- end container --> 
+</main>
+<footer></footer>
+	
+	<script src="js/functions.js"></script>
+	<script>
+		
+	$(document).ready(function() {
+
+	  var url = location.href;
+
+	  if (url.search('fs') >= 1) {
+		  $('.showMsg').show();
+		  $('#contactForm').hide();
+		  
+	  }
+	});	
+	</script>
+		
+	
+</body>
+</html>

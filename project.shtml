@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TOD Toolkit - Project Map</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <link href="/lib/hf/css/preventFullHeaderJump.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/dpwBase-1.0.css" rel="stylesheet" type="text/css">
+  <script src="/lib/tpl/js/ie8support.js"></script>
+  <script src="/lib/tpl/js/jquery-1.11.0.min.js"></script>
+  <script src="/lib/tpl/js/bootstrap.min.js"></script>
+  <script data-main="/lib/hf/js/nocache/App" src="/lib/hf/js/require.js"></script>
+
+  <!-- YOUR CSS AND SCRIPT INCLUDES (BELOW)-->
+  <link href="/lib/tpl/css/templateBase.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <header></header>
+  <main class="background">
+    <div class="container">
+      <h1>Transit-Oriented District Toolkit</h1>
+      <main class="page-wrapper">
+        <header class="sub-menu hidden-xs">
+          <!--#include file="nav.html" -->
+        </header>
+        <div class="page-content">
+          <div><!--<img src="img/projectMap-masthead.jpg" class="img-responsive" alt="Project Map">-->
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="col">
+
+                  <div>
+                    <h2>Project Map</h2> 
+					  
+					<img src="img/ProjectMap.png" class="img-responsive" alt="Project Map">
+					  <br>
+                  </div>
+
+                </div>
+
+                <!-- new line -->
+                <div class="clearfix"></div>
+
+                <!--#include file="seal.html" -->
+
+              </div>
+              <!--End Panel Body-->
+            </div>
+            <!--Panel-->
+          </div>
+        </div>
+        <!-- end page-content -->
+      </main>
+      <!-- end page-wrapper -->
+    </div>
+    <!-- end container -->
+  </main>
+  <footer></footer>
+</body>
+
+</html>

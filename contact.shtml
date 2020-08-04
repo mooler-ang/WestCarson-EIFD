@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+  <title>TOD Toolkit - Contact Us</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <link href="/lib/hf/css/preventFullHeaderJump.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/lib/hf/css/dpwBase-1.0.css" rel="stylesheet" type="text/css">
+  <script src="/lib/tpl/js/ie8support.js"></script>
+  <script src="/lib/tpl/js/jquery-1.11.0.min.js"></script>
+  <script src="/lib/tpl/js/bootstrap.min.js"></script>
+  <script data-main="/lib/hf/js/nocache/App" src="/lib/hf/js/require.js"></script>
+  
+  <!-- YOUR CSS AND SCRIPT INCLUDES (BELOW)-->
+  <link href="/lib/tpl/css/templateBase.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header></header>
+<main class="background">
+  <div class="container">
+    <h1>Transit-Oriented District Toolkit</h1>
+    <main class="page-wrapper">
+      <header class="sub-menu hidden-xs">
+        <!--#include file="nav.html" -->
+      </header>
+      <div class="page-content">
+        <img src="img/ContactUs.png" class="img-responsive" alt="Contact Us">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>Contact Us</h2>
+				<p>For additional project information, to ask questions or provide comments, please contact:</p>
+			  
+				<p>
+					Katherine Padilla Otanez<br>
+					Community Engagement Consultant<br>
+					Tel. 626.818.3324<br>
+					<a href="mailto:ContactUs@katherinepadilla.com?subject=TOD Design Toolkit">ContactUs@katherinepadilla.com</a>
+			  </p>
+
+           <!-- <p>
+				<a href="#" onclick="javascript:window.open('//pw.lacounty.gov/apps/contact/index.cfm?Title='+document.title+'&amp;script=' + window.location,'Feedback','toolbar=no,location=no,menubar=no,resizable=yes,width=640,height=580');return false;">Send us your comments</a>
+            </p>-->
+			  
+		  <!-- new line -->
+		  <div class="clearfix"></div>
+
+		  <!--#include file="seal.html" --> 
+          
+        </div>
+        <!--End Panel Body-->
+      </div>
+      <!--Panel-->
+
+      <!-- end page-content --> 
+    </main>
+    <!-- end page-wrapper --> 
+  </div>
+  <!-- end container --> 
+</main>
+<footer></footer>
+</body>
+</html>
